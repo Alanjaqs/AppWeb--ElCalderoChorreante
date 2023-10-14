@@ -1,0 +1,32 @@
+﻿body {
+    background-color: #FFEDFB;
+}
+
+#divBtnVolver {
+    display: flex;
+    justify-content: center;
+}
+
+#ContentPlaceHolder2_btnVolver {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px #552390 solid;
+    background-color: #552390;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+}
+
+.linksProd {
+    text-decoration: none;
+    color: #552390;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+#precioProd {
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+﻿body {
+    background-color: #FFEDFB;
+}
+
+.titlesPag {
+    color: #552390;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.linksCatProd {
+    text-decoration: none;
+    color: #552390;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+#precioProd {
+    font-weight: bold;
+}

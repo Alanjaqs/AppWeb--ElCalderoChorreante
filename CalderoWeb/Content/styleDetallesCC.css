@@ -1,0 +1,166 @@
+﻿body {
+    background-color: #FFEDFB;
+}
+
+/* Boton Volver I */
+
+#divBtnVolverDetalles {
+    display: flex;
+    justify-content: center;
+}
+
+#ContentPlaceHolder2_btnVolverDetalles {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px #552390 solid;
+    background-color: #552390;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+}
+
+/* Boton Volver F */
+
+#SectionDetallesProd {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+#ContentPlaceHolder2_lblNombreProd {
+    color: #552390;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#ContentPlaceHolder2_lblDescripcionProd {
+    color: #552390;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+#ContentPlaceHolder2_lblPrecioProd {
+    color: #552390;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+#ContentPlaceHolder2_imgProdDetalles {
+    width: 500px;
+    height: 600px;
+}
+
+#divInfoProd {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 600px;
+}
+
+#SectionDetallesProdMobile {
+    display: none;
+}
+
+#divConsultar {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+#wppIconPurple {
+    width: 50px;
+    height: 50px;
+}
+
+/* MOBILE  */
+
+@media (max-width: 992px)
+{
+    #SectionDetallesProd {
+        display: none;
+    }
+
+    #SectionDetallesProdMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+
+    #ContentPlaceHolder2_imgProdDetallesMobile {
+        width: 500px;
+        height: 600px;
+    }
+
+    #divInfoProdMobile {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 500px;
+        height: 400px;
+    }
+
+    #ContentPlaceHolder2_lblNombreProdMobile {
+        color: #552390;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    #ContentPlaceHolder2_lblDescripcionProdMobile {
+        color: #552390;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    #ContentPlaceHolder2_lblPrecioProdMobile {
+        color: #552390;
+        font-weight: bold;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+
+    #divConsultarMobile {
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: auto;
+    }
+
+    #wppIconPurpleMobile {
+        width: 50px;
+        height: 50px;
+    }
+
+    #ContentPlaceHolder2_btnVolverDetalles {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        border: 3px #552390 solid;
+        background-color: #552390;
+        color: white;
+        height: 80px;
+        width: 220px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
