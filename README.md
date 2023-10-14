@@ -1,4 +1,4 @@
-# Aplicacion Web estilo catalogo de una tiendra de productos
+# Aplicacion Web estilo catalogo de una tienda de productos
 # Nombre de la tienda: "El Caldero Chorreante"
 Esta aplicacion esta desarrollada en C# ASP.NET WebForms
 
